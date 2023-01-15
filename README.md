@@ -14,3 +14,6 @@ This project is a simulation of a self-driving car using the Udacity drive simul
  python drive.py
 3. The car should start driving autonomously around the track.
 
+bazel build -c opt --define MEDIAPIPE_DISABLE_GPU=1 mediapipe/examples/desktop/multi_hand_tracking:multi_hand_tracking_cpu
+
+
