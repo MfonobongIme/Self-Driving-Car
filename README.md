@@ -13,4 +13,4 @@ This project is a simulation of a self-driving car using the Udacity drive simul
 2. Navigate to the project's home directory and run the following command to start the autonomous driving:
 
 ```bash
-python dive.py
+python drive.py
