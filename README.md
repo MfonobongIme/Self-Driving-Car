@@ -8,6 +8,9 @@ This project is a simulation of a self-driving car using the Udacity drive simul
 2. The collected data is used to train the model using the `self_driving_car.ipynb` file
 3. The trained model saved as `model.h5` in the root directory.
 
-## Running
-
+## Usage
+1. Launch the Udacity drive simulator and select the autonomous mode.
+2. Navigate to the project's home directory and run the following command to start the autonomous driving:
+ python drive.py
+3. The car should start driving autonomously around the track.
 
