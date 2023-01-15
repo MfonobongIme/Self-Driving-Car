@@ -11,9 +11,8 @@ This project is a simulation of a self-driving car using the Udacity drive simul
 ## Usage
 1. Launch the Udacity drive simulator and select the autonomous mode.
 2. Navigate to the project's home directory and run the following command to start the autonomous driving:
- python drive.py
-3. The car should start driving autonomously around the track.
+```bash
+python dive.py
 
-bazel build -c opt --define MEDIAPIPE_DISABLE_GPU=1 mediapipe/examples/desktop/multi_hand_tracking:multi_hand_tracking_cpu
 
 
